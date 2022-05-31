@@ -22,4 +22,7 @@ echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable
   sudo tee -a /etc/pacman.conf
 sudo pacman -Syu sublime-text
 
+# LunarVim
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+echo 'export PATH="$HOME/.local/bin/:$PATH"' >> ~/.zshrc
 

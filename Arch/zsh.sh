@@ -16,12 +16,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # Autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-echo """\033[93mplugins=( 
+echo """\033[93mplugins=(
   python
   extract
   sudo
-  git 
-  zsh-syntax-highlighting 
-  zsh-autosuggestions 
+  git
+  zsh-syntax-highlighting
+  zsh-autosuggestions
 )\033[93m"""
 
