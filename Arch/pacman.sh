@@ -26,3 +26,6 @@ sudo pacman -Syu sublime-text
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 echo 'export PATH="$HOME/.local/bin/:$PATH"' >> ~/.zshrc
 
+
+# Python Poetry
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
