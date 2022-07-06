@@ -17,6 +17,7 @@ adb shell pm uninstall -k --user 0 com.miui.screenrecorder
 adb shell pm uninstall -k --user 0 com.miui.miservice
 adb shell pm uninstall -k --user 0 com.miui.notes
 adb shell pm uninstall -k --user 0 com.miui.compass
+adb shell pm uninstall -k --user 0 com.miui.yellowpage
 
 
 # Google
@@ -31,6 +32,8 @@ adb shell pm uninstall -k --user 0 com.google.android.apps.youtube
 adb shell pm uninstall -k --user 0 com.google.android.apps.docs
 adb shell pm uninstall -k --user 0 com.google.android.apps.messaging
 adb shell pm uninstall -k --user 0 com.android.chrome
+adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
+adb shell pm uninstall -k --user 0 com.google.android.dialer
 
 # Others
 adb shell pm uninstall -k --user 0 com.alibaba.aliexpresshd
