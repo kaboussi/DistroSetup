@@ -34,8 +34,10 @@ adb shell pm uninstall -k --user 0 com.google.android.apps.messaging
 adb shell pm uninstall -k --user 0 com.android.chrome
 adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
 adb shell pm uninstall -k --user 0 com.google.android.dialer
+adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin
 
 # Others
+adb shell pm uninstall -k --user 0 com.android.wallpapercropper
 adb shell pm uninstall -k --user 0 com.alibaba.aliexpresshd
 adb shell pm uninstall -k --user 0 com.ebay.mobile
 adb shell pm uninstall -k --user 0 com.netflix.partner.activation
